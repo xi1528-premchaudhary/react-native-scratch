@@ -77,7 +77,7 @@
 
 -(void)loadImage
 {
-  UIColor *backgroundColor = placeholderColor != nil ? placeholderColor : [UIColor grayColor];
+  UIColor *backgroundColor = placeholderColor != nil ? placeholderColor : [UIColor clearColor];
   self->backgroundColorImage = [ScratchViewTools createImageFromColor:backgroundColor];
   [self setImage:backgroundColorImage];
   if (imageUrl != nil) {
@@ -103,7 +103,7 @@
       [self drawImageEnd];
       [self reportImageLoadFinished: true];
   } else {
-    image = backgroundColorImage;
+    //image = backgroundColorImage;
     [self drawImageStart];
     [self drawImageEnd];
     [self reportImageLoadFinished: true];

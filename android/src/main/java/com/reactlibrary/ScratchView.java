@@ -231,7 +231,7 @@ public class ScratchView extends View implements View.OnTouchListener {
         }
 
         if (!imageTakenFromView) {
-            canvas.drawColor(this.placeholderColor != -1 ? this.placeholderColor : Color.GRAY);
+            canvas.drawColor(this.placeholderColor != -1 ? this.placeholderColor : Color.TRANSPARENT);
         }
 
         if (image == null) {

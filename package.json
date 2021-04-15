@@ -2,6 +2,8 @@
   "name": "react-native-scratch",
   "version": "1.2.1",
   "description": "Scratch view for react native",
+  "summary": "Fork scratch view for react native",
+  "homepage": "https://github.com/ConduitMobileRND/react-native-scratch.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
